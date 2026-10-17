@@ -131,6 +131,8 @@ aws s3 cp samples/ "s3://${BUCKET}/transcripts/" --recursive --exclude "*" --inc
 
 ## サンプル議事録
 
+`samples/` の議事録と、`sql/01_base.sql` のマスターデータ(プロジェクト、人名、数値など)は、全て検証用に作成した架空のものです。実在の組織・人物・案件とは関係ありません。
+
 | ファイル | 想定したプロジェクト | 想定した状況 | 想定したタグ |
 | --- | --- | --- | --- |
 | `meeting_2026-09-30_ec_cart.md` | PRJ-001 | IN_PROGRESS | nextjs, typescript, web-performance, aws-s3 |
